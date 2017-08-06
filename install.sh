@@ -64,7 +64,8 @@ echo "[+] Downloading pylibpcap..."
 pip install https://sourceforge.net/projects/pylibpcap/files/latest/download?source=files#egg=pylibpcap
 
 echo "[+] Downloading dpkt..."
-pip install https://dpkt.googlecode.com/files/dpkt-1.8.tar.gz
+#pip install https://dpkt.googlecode.com/files/dpkt-1.8.tar.gz
+pip install http://pkgs.fedoraproject.org/repo/pkgs/python-dpkt/dpkt-1.8.tar.gz/0f8e5a4d4b2f5d5faaf7bbfbf3e1e8b7/dpkt-1.8.tar.gz
 
 echo "[+] Installing patched version of scapy..."
 pip install ./setup/scapy-latest-snoopy_patch.tar.gz
